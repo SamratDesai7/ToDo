@@ -17,18 +17,17 @@ const ToDoApp = () => {
     if (!newTask.trim()) return;
     setTodo([...todo, { task: newTask, id: uuidv4(), done: false }]);
     setNewTask("");
-    toast.success("Task Added ")
+    toast.success("Task Added ");
   };
   let delTodo = (id) => {
     setTodo(todo.filter((prevTask) => prevTask.id !== id));
-    toast.error("Task Deketed ")
+    toast.error("Task Deketed ");
   };
   let taskDone = (id) => {
     const updatedTodos = todo.map((item) =>
       item.id === id ? { ...item, done: !item.done } : item
-  );
-  setTodo(updatedTodos);
-  toast.info("Task Completed ")
+    );
+    setTodo(updatedTodos);
   };
   return (
     <>

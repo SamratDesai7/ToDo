@@ -1,6 +1,6 @@
 import React from "react";
 import ToDoApp from "./ToDOApp.jsx";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
     <>
