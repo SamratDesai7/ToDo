@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and functional **ToDo List App** built with **React**. Perfect for managing your daily tasks with ease and simplicity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Visit Live App](https://to-do-flame-three-92.vercel.app/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+- ✅ Add new tasks instantly
+- 🗑️ Delete tasks with one click
+- ✅ Mark tasks as completed
+- 🔄 Auto state update on task actions
+- 💻 Responsive design for all devices
+- ⚛️ Built with React functional components & hooks
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, JavaScript, HTML5, CSS3
+- **Icons**: React Icons / Material UI Icons (based on your setup)
+- **UUID**: For unique task identification
+
+---
+
+
+## 🚧 Future Improvements
+
+- ✍️ Edit existing tasks
+- 🎨 Dark/light theme toggle
+- ☁️ Backend integration for persistent storage
+- 📱 PWA support for offline access
+
+---
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use and modify it for your own purposes.
