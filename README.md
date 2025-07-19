@@ -29,7 +29,28 @@ A sleek and functional **ToDo List App** built with **React**. Perfect for manag
 
 ---
 
+## 📁 Folder Structure
+```bash
+ToDo/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── AddTask.jsx
+│ │ ├── TaskItem.jsx
+│ │ └── TaskList.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+```
 
+---
 ## 🚧 Future Improvements
 
 - ✍️ Edit existing tasks
